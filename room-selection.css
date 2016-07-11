@@ -1,0 +1,146 @@
+body
+{    align: center;
+	background-color: #dc0f0f;
+	}
+
+a {
+    color: black;
+}
+div.rooms{
+color:white;
+}
+ul#homeMenu2 
+{	
+	margin: 500px 1px 1px 42px;/*moves around browser view margin: Top-Right-Bottom-Left*/
+	float: left;
+	padding: 10px 10px 15px 20px;
+		
+	list-style: none; /*no bullet points*/
+	
+	width: 1200px; /*how wide entire footer is*/
+	height: 15px;/*how tall it is*/
+	
+	
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	background: #480000 /*border around all options*/
+}
+ul#homeMenu2 li a
+{	
+	text-decoration: none;
+	padding: 5px 10px 5px 10px; /*Padding Options: top right bottom left*/
+	color: #FFFF00; /*colors text*/	
+}
+
+
+	/*hovering effects */
+ul#homeMenu2 li a.linked:hover
+{
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+
+
+
+div.sign-in-menu
+ {
+	position: absolute;        
+    width: 200px;
+    height: 100px;
+    margin: 20px 0px 0px 1000px;/*position is static on page*/
+}
+
+div.HotelName a	/*title of Hotel*/
+{	
+	color: #ffff00;/*text color*/	
+}
+div.HotelName
+{
+	/*margin: 10px 100px 0px 100px;*//*top right bottom left*/
+	float: center;	
+	text-align: center;
+	font-size: 180%;	
+	text-shadow: 0 0 10px #377, 0 0 20px #377, 0 0 30px #377, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000,0 0 200px #ff0000,0 0 220px #ff0000;
+	
+}
+
+div.sign-in-menu
+ {
+	position: absolute;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+
+div.sign-in-menu ul
+ {	
+	/*float:right;	*/
+	/*float: left;*/
+	
+	list-style: none; /*no bullet points*/
+	width: 200px;
+	height: 30px;
+	padding: 10px 0px 0px 0px;/*T R B L*/
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	/*box-align: center;*/
+	background: #480000 /*border around all options*/
+}
+
+div.sign-in-menu li a
+{	
+	text-decoration: none;
+	padding: 5px 15px 5px 15px; /*Padding Options: top right botto left*/
+	color: #FFFF00; /*colors text*/	
+}	
+
+/*hovering effects */
+div.sign-in-menu li a:hover
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+ul#main-menu
+{		
+	width: 00px;/*border in back of links*/
+				/* this borders all li inside it only*/
+				
+	height: 10px;/*does not affect li width but
+					will let images go underneath
+					* the links
+					*/	
+	text-align: center;
+	
+}
+ul#main-menu li
+{
+	background: #480000;/*color entire li background*/
+	border: 1px solid #222;/*creates border around li*/
+	border-radius: 7px; /*Rounded Edges*/
+	list-style: none;
+	
+	width: 220px; /*will expand no matter ul width*/
+	height: 40px;	/*affects height of li individuals*/
+	
+	padding: 15px 0px 15px 0px;/* t-r-b-l space inside li*/
+	margin: 2px 0px 2px 0px;/*space outside of li*/	
+}
+/*hove*/
+ul#main-menu li:hover /*Navigation Pane hover*/ 
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+ul#main-menu li a
+{		
+	width: 10px;	/*na*/
+	padding: 18px 40px 15px 40px;/*size of highlight box*/ /*click area around link to activate it!*/
+	text-decoration: none;/*no underline*/	
+	color: #FFFF00;/*text color*/
+}

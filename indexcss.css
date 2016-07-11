@@ -1,0 +1,537 @@
+/*CSS file
+ * Hotel Management System
+ * */
+
+
+/* Display HTML5 structural elements as blocks */
+body,footer, hgroup, header, 
+section, nav, div {
+   display: block;
+}
+
+/* Body Styles*/
+-.background-style /* not in use */
+{
+
+	box-shadow:0 0 10px #990000, 0 0 20px #990000, 0 0 21px #990000;
+
+	
+
+
+}
+
+
+html body
+{
+	background-image: url("skyline2.jpg");
+	-background-size: 1200px 800px; /*widht height*/
+	background-size: 1200px 800px;
+
+	-background-repeat: repeat-y;/*no-repeat; */ /*repeats vertically*/
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;	    
+
+	-background-position: 40px 00px;/*x-horizontal-position-right, vertical-position-top*/
+	background-position: 50% 20px;/*x-horizontal-position-right, vertical-position-top*/
+
+
+	-background-color: #dc0f0f;
+	background-color: rgba(255,0,00,0.749);
+	background-color: rgba(0,0,0,0.25);
+	
+
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+/*Body Style Customer*/
+html body.customer-body /*Im using a class*/
+{
+	background-image: url("skyline3.jpg");
+	background-size: 1200px 800px; /*widht height*/
+	background-repeat: repeat-y;/*no-repeat; */ /*repeats vertically*/
+	background-position: 40px 00px;/*x(from right) y(from top)*/
+	background-color: #dc0f0f;
+	background-position: center;
+	    background-attachment: fixed;	    
+	    
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+/*Body Style Staff*/
+html body.staff-body /*this is the class*/
+{
+	background-image: url("toro-3.png");
+	
+	background-size: 100px 100px; /*widht height*/
+	background-repeat: repeat-x;/*no-repeat; */ /*repeats vertically*/
+	background-position: 500px 130px;/*x(from right) y(from top)*/
+	background-color: #dc0f0f;
+		background-color: rgba(0,0,0,0.1723);
+
+	    background-attachment: fixed;	    
+	    
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+/*Body Style documents*/
+html body.documents-body /*this is the class*/
+{
+	background-image: url("toro-3.png");
+	
+	background-size: 1200px 800px; /*widht height*/
+	background-repeat: repeat-y;/*no-repeat; */ /*repeats vertically*/
+	background-position: 40px 00px;/*x(from right) y(from top)*/
+	background-color: #dc0f0f;
+	
+	    background-attachment: fixed;
+	    
+	    
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+
+/*Home Page Styles*/
+
+li.newgroup              {margin-top: 10px}
+
+#career-title
+{
+	/*neon font*/
+	font: 400 75px/1.3 'Arizonia', Helvetica, sans-serif;
+	font: 400 30px/1.3 'Arizonia', Helvetica, sans-serif;
+	/*color: #D0F8FF;*/
+	color: #F8F8FF;
+		/*neon*/
+    	text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+
+
+div.bottom {	/**/ 
+}
+div.HotelName a	/*title of Hotel*/
+{	
+	color: #ffff00;/*text color*/	
+}
+div.HotelName
+{
+	/*margin: 10px 100px 0px 100px;*//*top right bottom left*/
+	float: center;	
+	text-align: center;
+	font-size: 180%;	
+	text-shadow: 0 0 10px #377, 0 0 20px #377, 0 0 30px #377, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000,0 0 200px #ff0000,0 0 220px #ff0000;
+	
+}
+
+div.top-right
+{
+	position: absolute;
+    top: 70px;
+    right: 0;
+    width: 250px;
+}
+
+div.SlidePhotos /*HomePage photos and pictures*/
+{
+	z-index: -1; /*will appear beneath others*/
+		
+	position: absolute; /* if its absolute the image will stay in place but 
+							require some padding / margins*/
+	margin: 1px 1px 1px 280px; /*top right bottom left*/
+		
+	box-shadow: 0 0 10px #990000, 0 0 20px #990000, 0 0 30px #990000, 0 0 40px #990000;
+	
+}
+div.city1 {/*picture test*/
+	/*position:fixed;*/
+}
+
+
+
+/*Main Menu*/
+div.sign-in-menu
+ {
+	position: absolute;        
+    width: 260px;/*old was 200px*/
+    height: 100px;
+    margin: 20px 0px 0px 1000px;/*position is static on page*/
+}
+
+div.sign-in-menu ul
+ {		
+	padding: 15px 0px 15px 0px;/* t-r-b-l space inside li*/
+	margin: 2px 0px 2px 00px;/*space outside of li*/	
+		
+	list-style: none; /*no bullet points*/
+	
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	
+	background: #480000 /*border around all options*/
+}
+
+div.sign-in-menu li a
+{	
+	text-decoration: none;
+	padding: 5px 15px 5px 15px; /*Padding Options: top right botto left*/
+	color: #FFFF00; /*colors text*/	
+}	
+
+/*hovering effects */
+div.sign-in-menu li a:hover
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+
+
+
+
+
+
+
+/*Sign Out Menu*/
+div.sign-out-menu
+ {
+	position: absolute;        
+    width: 300px;
+    height: 100px;
+    margin: 20px 0px 0px 1000px;/*position is static on page*/
+}
+
+div.sign-out-menu ul
+ {		
+	padding: 15px 0px 15px 0px;/* t-r-b-l space inside li*/
+	margin: 2px 0px 2px 00px;/*space outside of li*/	
+		
+	list-style: none; /*no bullet points*/
+	
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	
+	background: #480000 /*border around all options*/
+}
+
+div.sign-out-menu li a
+{	
+	text-decoration: none;
+	padding: 5px 15px 5px 15px; /*Padding Options: top right botto left*/
+	color: #FFFF00; /*colors text*/	
+}	
+
+/*hovering effects */
+div.sign-out-menu li a:hover
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+
+
+
+
+
+
+/*Home Page links*/
+/*Left Hand Navigation Menu Items Buttons*/
+
+ul#main-menu
+{		
+	width: 00px;/*border in back of links*/
+				/* this borders all li inside it only*/
+				
+	height: 10px;/*does not affect li width but
+					will let images go underneath
+					* the links
+					*/	
+	text-align: center;
+	
+}
+ul#main-menu li
+{
+	background: #480000;/*color entire li background*/
+	border: 1px solid #222;/*creates border around li*/
+	border-radius: 7px; /*Rounded Edges*/
+	list-style: none;
+	
+	width: 220px; /*will expand no matter ul width*/
+	height: 40px;	/*affects height of li individuals*/
+	
+	padding: 15px 0px 15px 0px;/* t-r-b-l space inside li*/
+	margin: 2px 0px 2px 0px;/*space outside of li*/	
+}
+/*hove*/
+ul#main-menu li:hover /*Navigation Pane hover*/ 
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+ul#main-menu li a
+{		
+	width: 10px;	/*na*/
+	padding: 18px 40px 15px 40px;/*size of highlight box*/ /*click area around link to activate it!*/
+	text-decoration: none;/*no underline*/	
+	color: #FFFF00;/*text color*/
+}
+
+
+
+
+
+
+/*about.html*/
+/*documentation menu*/
+
+ul#main-menu-documents
+{		
+	width: 00px;/*border in back of links*/				/* this borders all li inside it only*/				
+	height: 10px;/*does not affect li width but	will let images go underneath * the links*/	
+	text-align: center;	
+}
+ul#main-menu-documents li
+{
+	background: #480000;/*color entire li background*/
+	border: 1px solid #222;/*creates border around li*/
+	border-radius: 7px; /*Rounded Edges*/
+	list-style: none;
+	
+	width: 150px; /*will expand no matter ul width*/
+	height: 10px;	/*affects height of li individuals*/
+	
+	padding: 15px 0px 15px 0px;/* t-r-b-l space inside li*/
+	margin: 2px 0px 2px 0px;/*space outside of li*/	
+}
+/*hove*/
+ul#main-menu-documents li:hover /*Navigation Pane hover*/ 
+{	
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+ul#main-menu-documents li a
+{		
+	width: 10px;	/*na*/
+	padding: 5px 40px 5px 40px;/*size of highlight box*/ /*click area around link to activate it!*/
+	text-decoration: none;/*no underline*/	
+	color: #FFFF00;/*text color*/
+}
+
+
+
+
+
+/*Home Page links -- Footer !!*/
+/* footer on the bottom of the page*/
+ul#homeMenu2 
+{	
+	margin: 425px 0px 0px 180px;/*moves around browser edges/view margin: Top-Right-Bottom-Left left=was=42px*/
+	float: left;
+	padding: 10px 10px 15px 20px;
+		
+	list-style: none; /*no bullet points*/
+	
+	width: 1000px; /*how wide entire footer is*/
+	height: 15px;/*how tall it is*/
+	
+	
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	background: #480000 /*border around all options*/
+}
+ul#homeMenu2 li a
+{	
+	text-decoration: none;
+	padding: 5px 10px 5px 10px; /*Padding Options: top right bottom left*/
+	color: #FFFF00; /*colors text*/	
+}
+
+
+	/*hovering effects */
+ul#homeMenu2 li a.linked:hover
+{
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Staff Footer  -- Footer !!*/
+/* footer on the bottom of the page*/
+.staff-footer 
+{	
+	margin: 800px 0px 0px 260px;/*moves around browser edges/view margin: Top-Right-Bottom-Left left=was=42px*/
+	float: left;
+	padding: 10px 10px 15px 20px;
+		
+	list-style: none; /*no bullet points*/
+	
+	width: 1000px; /*how wide entire footer is*/
+	height: 15px;/*how tall it is*/
+	
+	
+	border-radius: 5px; /*cretes rounded edges*/
+	border: 1px solid #222; /*dark line border*/	
+	text-align: center;
+	background: #480000 /*border around all options*/
+}
+.staff-footer  li a
+{	
+	text-decoration: none;
+	padding: 5px 10px 5px 10px; /*Padding Options: top right bottom left*/
+	color: #FFFF00; /*colors text*/	
+}
+
+
+	/*hovering effects */
+.staff-footer li a.linked:hover
+{
+	background: #F00000; /*change color  in hover*/
+	color: #F0F0F0;
+	border: 3px solid #ffc800; /*border arond option when hover*/	
+}
+
+
+
+
+
+
+
+/*Room Selection room-selection.html */
+.room-select-table
+{
+	margin: 1px 1px 1px 150px; /*top right bottom left*/
+	box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff ;
+	background:rgba(0,0,50,0.310);
+	color: yellow;
+}
+
+.room-select-table a
+{
+	color: yellow;
+}
+
+
+
+
+
+/*Career WebPage*/
+input.careerForm {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+input.careerForm:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;/*x-offset y-offset blur color*/
+}
+
+
+
+
+
+
+
+/*Registration register.php stles */
+.registerform {
+
+	width:500px; 
+	height:400px;
+	background-color: rgba(255,255,0,0.77);
+
+}
+.registerform input { /*affects "input" tag inside class=registerform*/
+	color:blue;
+    border: 1px solid #999900;
+    border-radius: 1px;
+
+}
+.registerform input:focus { 
+    outline: none;
+    border-color: #FFFF00;
+    box-shadow: 0 0 10px #FFFF00;/*x-offset y-offset blur color*/
+}
+
+
+
+/*Log In Form*/
+/*Career WebPage*/
+input.loginForm {
+    border: 2px solid #999900;
+    border-radius: 7px;
+}
+
+input.loginForm:focus { 
+    outline: none;
+    border-color: #FFFF00;
+    box-shadow: 0 0 10px #FFFF00;/*x-offset y-offset blur color*/
+}
+
+
+
+
+
+div.roomselection {
+    background-image: none;
+}
+
+div.placestogo
+{
+ display: inline-block;
+}
+div.notablecustomer
+{
+display: inline-block;
+}
+
+div.box 
+	{
+    background-color: black;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid red;
+    margin: 25px;
+	}
+
+
+
+/*Tables formats*/
+.staff-table
+{
+	position:absolute; 
+	margin: 1px 1px 1px 280px;
+	background: rgba(255,255,255,0.85);
+}
+
+.staff-table
+{
+	
+}
